@@ -1,0 +1,118 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8E44AD, #3498DB);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.color_picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+input[type="color"]:hover {
+    transform: scale(1.2);
+}
+
+.color-code {
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.output {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+} */
+
+
+/* 
+project-2 */
+
+
+/* body {
+    background-color: rgb(255, 119, 0);
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+label {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#weight-guide {
+    padding: 60px;
+    margin: 20px;
+} */
+
+
+/* project-3 clock */
+
+
+/* body {
+    background-color: black;
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    font-size: 40px;
+    background-color: rgb(229, 174, 72);
+    color: black;
+    padding: 30px 70px;
+    border-radius: 20px;
+} */

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Playlist</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a328547190.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="music-player">
+      <nav>
+        <div class="circle"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="circle"><i class="fa-solid fa-bars"></i></div>
+      </nav>
+
+      <img class="song-img" src="./download.jpg" alt="Song Cover" />
+      <h1>Tera Kasoor</h1>
+      <p>Vishal Mishra</p>
+
+      <audio id="song">
+        <source src="./128-Tera Kasoor - Vishal Mishra 128 Kbps.mp3" type="audio/mpeg" />
+      </audio>
+
+      <input type="range" value="0" id="progress" />
+
+      <div class="controls">
+        <div><i class="fa-solid fa-backward"></i></div>
+        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+        <div><i class="fa-solid fa-forward"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
