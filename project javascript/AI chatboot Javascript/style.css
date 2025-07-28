@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(50, 55, 60);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+    overflow: auto;
+}
+
+.user-chat-box {
+    width: 60%;
+    position: relative;
+    left: 40%;
+    padding: 20px;
+}
+
+.ai-chat-box {
+    width: 60%;
+    position: relative;
+}
+
+.user-chat-area {
+    width: 90%;
+    padding: 20px;
+    border-radius: 40px 0px 40px 40px;
+    background-color: black;
+    color: rgb(135, 118, 97);
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.chooseimg {
+    width: 30%;
+    border-radius: 30px;
+}
+
+.ai-chat-area {
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(34, 28, 28);
+    color: rgb(179, 154, 119);
+    position: relative;
+    left: 10%;
+    border-radius: 0px 40px 40px 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#UserImage {
+    position: absolute;
+    right: 0;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+#AiImage {
+    position: absolute;
+    left: 0;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.prompt-area {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(50, 55, 60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prompt-area input {
+    width: 50%;
+    height: 80px;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+}
+
+.prompt-area button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.prompt-area button:hover {
+    background-color: rgb(13, 12, 12);
+}
+
+.load {
+    box-shadow: 2px 2px 5px black;
+}
+
+.choose {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
